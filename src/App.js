@@ -4,7 +4,7 @@ function App(){
   return(
     <div>
       <h1 className='container'>RTC-Component</h1>
-      <Component/><Component/><Component/><Component/>
+      <Component/><Component/><Component/><Component/><Component/><Component/><Component/><Component/>
     </div>
     
   );

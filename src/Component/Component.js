@@ -1,8 +1,10 @@
 import './Component.css';
+import image from './record.jpg';
 function Component(){
     return(
+        
         <div className='cmp'>
-           <img src="record.jpg" alt="Something is error" ></img>
+        <img src={image} className="img"/>  
             <p>hellow students</p>
         </div>
     );
