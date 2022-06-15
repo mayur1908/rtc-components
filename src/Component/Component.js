@@ -4,8 +4,9 @@ function Component(){
     return(
         
         <div className='cmp'>
-        <img src={image} className="img"/>  
-            <p>hellow students</p>
+        <img src={image} className="img"/> 
+        {/* <button><img src={image}/></button>  */}
+            <p className='para'>hellow students</p>
         </div>
     );
 }

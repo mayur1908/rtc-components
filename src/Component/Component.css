@@ -12,3 +12,9 @@
 .img{
     border-radius: 50%;
 }
+.para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
