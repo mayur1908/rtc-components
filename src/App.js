@@ -3,7 +3,8 @@ import Component from './Component/Component';
 function App(){
   return(
     <div>
-      <h1 className='container'>RTC-Component</h1>
+      <p className='container'>View Cource</p>
+      <Component/><Component/><Component/><Component/><Component/><Component/><Component/><Component/>
       <Component/><Component/><Component/><Component/><Component/><Component/><Component/><Component/>
     </div>
     
