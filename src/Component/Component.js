@@ -1,12 +1,11 @@
 import './Component.css';
 import image from './record.jpg';
-function Component(){
+function Component(props){
     return(
         
         <div className='cmp'>
         <img src={image} className="img"/> 
-        {/* <button><img src={image}/></button>  */}
-            <p className='para'>hellow students</p>
+        <p className='para'>{props.lecture}</p>
         </div>
     );
 }
